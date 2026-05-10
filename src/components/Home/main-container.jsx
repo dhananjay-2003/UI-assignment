@@ -15,7 +15,7 @@ import WhyChooseUs from "./why-us";
 
 export default function MainContainer() {
     return (
-        <main className="relative w-full">
+        <main className="relative w-full overflow-x-hidden">
             {/* Sticky Side Bar Image */}
             <div className="hidden lg:flex fixed left-0 top-1/2 -translate-y-1/2 z-[100] drop-shadow-2xl">
                 <ImageWithSkeleton 

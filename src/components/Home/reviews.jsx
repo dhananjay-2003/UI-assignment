@@ -36,10 +36,10 @@ export default function ReviewsStickySection() {
 
   return (
     <section className="bg-[#f6f6f6] py-16 lg:py-32 relative">
-      <div className="max-w-[80vw] mx-auto px-6 lg:px-10 flex flex-col lg:flex-row gap-12 lg:gap-8 items-start relative">
+      <div className="w-full max-w-full lg:max-w-[80vw] mx-auto px-6 lg:px-10 flex flex-col lg:flex-row gap-12 lg:gap-8 items-start relative">
         
         {/* LEFT SECTION - STICKY (80vh) */}
-        <div className="w-[60vh] lg:w-[40%] h-auto lg:h-[80vh] lg:sticky lg:top-[10vh] flex flex-col justify-center pb-12 lg:pb-0">
+        <div className="w-full lg:w-[40%] h-auto lg:h-[80vh] lg:sticky lg:top-[10vh] flex flex-col justify-center pb-12 lg:pb-0">
           <div className="max-w-md scale-100 lg:scale-[0.9] origin-left">
             <div className="flex items-center gap-3 mb-8">
               <span className="w-2 h-2 bg-black rounded-full"></span>
